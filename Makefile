@@ -31,7 +31,7 @@ install: all
 	@echo 'Installed: $(DESTDIR)$(DIR)/*.nanorc'
 
 install-global:
-	@$(MAKE) --no-print-directory install DIR=/usr/local/share/nano
+	@$(MAKE) --no-print-directory install DIR=/usr/share/nano
 
 clean:
 	rm -rf build
